@@ -1,10 +1,8 @@
 def is_lucky(n):
   """
   Kiểm tra số n có phải là số may mắn hay không.
-
   Tham số:
-    n: Số nguyên dương.
-
+    n: Số nguyên dương <= 10000000.
   Trả về:
     True nếu n là số may mắn, False nếu không.
   """
