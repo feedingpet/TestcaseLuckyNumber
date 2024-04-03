@@ -12,7 +12,7 @@ def is_lucky(n):
     n = sum(int(d)**2 for d in str(n))
   return n == 1
 
-# Ví dụ sử dụng
+# Code
 while True:
   try:
     n = int(input("Nhập số nguyên dương (<= 10000000): "))
